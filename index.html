@@ -24,7 +24,19 @@
 </ul>
 
   <h2>Visueller Eindruck</h2>
-
+<script>
+const essen = ["Croissant", "Crêpe", "Baguette", "Frankreich"];  // Regionale Sepzialitäten und das Land der Stadt
+  const liste = document.getElementById("liste-essen");
+  essen.forEach(h => {
+    let li = document.createElement("li");
+    li.textContent = h;
+    liste.appendChild(li);
+  });
+</script>
   
 </body>
 </html>
+
+
+
+
